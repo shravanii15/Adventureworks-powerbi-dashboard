@@ -41,8 +41,12 @@ DAX measures include: Total Revenue, Total Profit, Total Orders, Total Returns, 
 
 ## My additions
 
-> Fill in before publishing: 2 or 3 findings or design choices that are your own (for example, a question you chose to investigate and what you found). Delete this box if there are none.
-
+- Built a metric selector on the Product Detail page so one chart can switch between orders, revenue, profit, returns and return rate.
+- Added a what-if price slider that shows adjusted profit against actual profit for any product.
+- Added target-gap and previous-month measures, so each KPI shows how it compares with its target and with the month before.
+- Set up a custom tooltip page and bookmark navigation, so the report can be explored by clicking through views instead of scrolling.
+- Wrote notes on how to read the data: the jump in orders in mid 2021 and the incomplete last week, so neither is mistaken for a real change.
+  
 ## How to open it
 
 1. Download `report/AdventureWorks_Report_FINAL.pbix`.
@@ -58,7 +62,7 @@ DAX measures include: Total Revenue, Total Profit, Total Orders, Total Returns, 
 
 ## About this project
 
-Built in Power BI Desktop using Microsoft's AdventureWorks sample dataset while working through a guided Power BI course ([course name: fill in]). The report, model and DAX are mine to explain; the dataset is a public sample and the data is fictional.
+Built in Power BI Desktop using Microsoft's public AdventureWorks sample dataset (the data is fictional). It covers data modeling, DAX measures and report design, and I can walk through any page, measure or design choice.
 
 ## Author
 
